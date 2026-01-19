@@ -1,5 +1,5 @@
 # MediaPipe is a Google library for detecting hands, faces, poses, etc.
-# You use it here for hand landmarks (to detect finger positions).
+# Used here for hand landmarks (to detect finger positions).
 mediapipe==0.10.14
 
 # OpenCV (cv2) is used for image capture and drawing.
