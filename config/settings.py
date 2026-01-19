@@ -1,5 +1,5 @@
 ESP32_IP = "192.168.x.xx" # Enter Micro controller IP
-PORT = 5000 # Enter Port Number
+PORT = 0000 # Enter Port Number
 
 
 CAM_WIDTH = 1280
