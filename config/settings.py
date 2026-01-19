@@ -1,0 +1,11 @@
+ESP32_IP = "192.168.1.180" # Enter Micro controller IP
+PORT = 5000 # Enter Port Number
+
+
+CAM_WIDTH = 1280
+CAM_HEIGHT = 720
+
+STABLE_TIME = 0.1
+COOLDOWN = 0.15
+HOLD_TIME = 1.5
+DEBOUNCE = 1.2

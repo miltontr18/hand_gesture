@@ -1,0 +1,17 @@
+# MediaPipe is a Google library for detecting hands, faces, poses, etc.
+# You use it here for hand landmarks (to detect finger positions).
+mediapipe==0.10.14
+
+# OpenCV (cv2) is used for image capture and drawing.
+# It handles your webcam, frame resizing, flipping, and showing visuals.
+opencv-python==4.9.0.80
+
+# NumPy handles fast math operations.
+# MediaPipe and OpenCV both rely on it for matrix calculations and image data.
+numpy==1.26.4
+
+# Protocol Buffers (protobuf) is a dependency of MediaPipe.
+# It handles how MediaPipe loads its models and configuration data.
+protobuf==4.25.3
+matplotlib==3.9.2        # For visual debugging
+pillow==10.4.0           # For image handling

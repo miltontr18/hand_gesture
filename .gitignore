@@ -1,0 +1,98 @@
+# ============================
+# Python + PyCharm Git Ignore
+# ============================
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pyvenv.cfg
+
+# PyCharm project files
+.idea/
+*.iml
+
+# VSCode configs (if used)
+.vscode/
+
+# Logs, local data, caches
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.dat
+*.csv
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Backup or temporary files
+*~
+*.orig
+*.tmp
+
+# PyInstaller build files
+*.spec
+
+# Local machine configs
+*.local
+
+# Cache folders
+__pypackages__/
+.mypy_cache/
+.pyre/
+.pytype/
